@@ -1,0 +1,116 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 20px 100px;
+    color: #D3DCDE;
+    background-color: #212B2D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h2, h3{
+    text-transform: capitalize;
+}
+
+/* headder */
+
+header img{
+    border: 1px solid #D3DCDE;
+}
+
+header ul {
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: #333D3F;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+header ul li{
+    border-right: 2px solid #D3DCDE ;
+    padding-right: 50px;
+    text-transform: capitalize;
+}
+
+header ul li:last-child{
+    border: none;
+}
+
+ /*section*/
+
+section{
+    font-size: 1.3rem;
+}
+
+section a{
+    color: #D3DCDE;
+
+}
+
+section ul{
+    list-style-type:circle
+}
+
+/*  */
+
+section{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D3DCDE;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "menu gallery gallery"
+    "block sub other" ;
+}
+
+.grid-container div{
+    margin-left: 20px;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.gallery{
+    grid-area: gallery;
+}
+
+.border-top{
+    border-top: 1px solid #D3DCDE;
+    padding-top: 10px;
+}
+
+.block{
+    grid-area: block;
+}
+
+.sub{
+    grid-area: sub;
+}
+
+.other{
+    grid-area: other;
+}
+
+.button{
+    background-color: #99A9AD;
+    color: #000;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.button a{
+    color: #000;
+    text-decoration: none;
+}
