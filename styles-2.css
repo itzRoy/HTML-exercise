@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    background-color: bisque;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+    padding: 0;
+    background-color: white;
+}
+
+nav li{
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
